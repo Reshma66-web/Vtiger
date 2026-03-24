@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 import LoginPage from '../PageObjectModel/login.page.js'
-import loginData from '../testdata/loginData.json' 
+import loginData from '../testData/loginData.json' 
 test('Create Lead Test', async ({page})=>{
 
 await page.goto(loginData.url)
